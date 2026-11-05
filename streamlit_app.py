@@ -3,7 +3,7 @@ import pandas as pd
 import streamlit as st
 
 # Define the ticker and risk-free rate
-ticker = 'AAPL'
+ticker = 'MSFT'
 rf_monthly = 0.0025 # 0.25% per month
 # Download monthly stock price data for the past 5 years
 data = yf.download(ticker, period='5y', interval='1mo')
